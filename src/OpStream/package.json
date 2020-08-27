@@ -1,0 +1,69 @@
+{
+    "package": {
+        "package_name": "net.intellivoid.opstream",
+        "name": "OpStream Library",
+        "version": "1.0.0.0",
+        "author": "Zi Xing Narrakas",
+        "organization": "Intellivoid",
+        "description": "OpStream Manager/Scraper Library",
+        "url": "https://github.com/intellivoid/opstream",
+        "dependencies": [],
+        "configuration": {
+            "autoload_method": "generated_spl",
+            "main": null,
+            "post_installation": [],
+            "pre_installation": []
+        }
+    },
+    "components": [
+        {
+            "required": true,
+            "file": "Abstracts/Codecs.php"
+        },
+        {
+            "required": true,
+            "file": "Abstracts/CodecTypes.php"
+        },
+        {
+            "required": true,
+            "file": "Abstracts/CountryCodes.php"
+        },
+        {
+            "required": true,
+            "file": "Exceptions/RadioBrowseException.php"
+        },
+        {
+            "required": true,
+            "file": "Interfaces/SourceInterface.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/Station/Properties.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/Station/Statistics.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/Station.php"
+        },
+        {
+            "required": true,
+            "file": "OpStream.php"
+        },
+        {
+            "required": true,
+            "file": "Sources/RadioBrowse/SearchOrder.php"
+        },
+        {
+            "required": true,
+            "file": "Sources/RadioBrowse/Station.php"
+        },
+        {
+            "required": true,
+            "file": "Sources/RadioBrowse.php"
+        }
+    ],
+    "files": []
+}
