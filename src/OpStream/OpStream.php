@@ -4,6 +4,7 @@
     namespace OpStream;
 
     use acm\acm;
+    use Exception;
     use mysqli;
 
     require_once(__DIR__ . DIRECTORY_SEPARATOR . 'AutoConfig.php');
@@ -31,7 +32,7 @@
 
         /**
          * OpStream constructor.
-         * @throws \Exception
+         * @throws Exception
          */
         public function __construct()
         {
